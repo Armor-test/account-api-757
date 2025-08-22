@@ -1,0 +1,35 @@
+# CODEOWNERS file for account-api-757
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-data @Armor-test/squad-tooling @Armor-test/squad-mobile
+
+# Directory ownership
+/dist/ @Armor-test/grp-api @Armor-test/dept-automation @Armor-test/dept-identity
+/tests/ @Armor-test/dept-identity @Armor-test/squad-frontend
+/assets/ @Armor-test/dept-test @Armor-test/dept-reliability @Armor-test/unit-devops
+/pkg/ @Armor-test/squad-cloud @Armor-test/squad-frontend @Armor-test/squad-product
+/config/ @Armor-test/squad-performance @Armor-test/team-governance @Armor-test/dept-notifications
+/utils/ @Armor-test/dept-billing @Armor-test/dept-notifications
+/styles/ @Armor-test/unit-test @Armor-test/team-logging @Armor-test/team-frontend
+/auth/ @Armor-test/unit-design @Armor-test/team-core
+/public/ @Armor-test/team-frontend @Armor-test/dept-logging
+/tools/ @Armor-test/unit-design @Armor-test/dept-automation
+
+# File type ownership
+*.toml @Armor-test/team-reporting @Armor-test/unit-design @Armor-test/dept-security
+*.swift @Armor-test/team-research @Armor-test/team-reporting
+*.java @Armor-test/squad-performance @Armor-test/unit-governance
+*.lock @Armor-test/team-governance @Armor-test/grp-reporting
+*.sh @Armor-test/squad-ux @Armor-test/grp-integration
+*.properties @Armor-test/dept-api @Armor-test/dept-billing
+*.scala @Armor-test/squad-ux @Armor-test/grp-storage @Armor-test/squad-cache
+*.js @Armor-test/squad-search @Armor-test/grp-search @Armor-test/dept-api
+*.css @Armor-test/squad-frontend @Armor-test/dept-security
+*.sql @Armor-test/grp-integration @Armor-test/grp-storage
+*.xml @Armor-test/grp-api @Armor-test/squad-cache @Armor-test/squad-product
+*.proto @Armor-test/team-logging @Armor-test/grp-integration @Armor-test/dept-ui
+
+# Security and special files
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+package.json @Armor-test/dependency-team @Armor-test/security
+Dockerfile @Armor-test/devops @Armor-test/infra
